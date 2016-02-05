@@ -1,0 +1,12 @@
+# Site settings
+title: Movinun
+email: info@movinun.com
+description: "Movinun - the considerate crew. Ethical fashion brand, all products designed and handcrafted in Ljubljana, the heart of Europe."
+baseurl: ""
+url: "http://movinun.com/"
+
+twitter_username: movinun
+github_username: ViaCoco
+
+# Build settings
+markdown: kramdown
