@@ -36,6 +36,13 @@
 
 }
 
+.logo-center {
+	vertical-align: middle;
+    display: block;
+    margin: 50px auto 0;
+    width: 200px;
+}
+
 .section-title {
 	text-align: left;
 	color: $theme-dark;
@@ -47,6 +54,10 @@
 
 	span {
 		font-weight: 600;
+	}
+
+	a {
+		color: #46A1FF;
 	}
 }
 
@@ -182,9 +193,17 @@
 			}
 
 .footer {
-	padding: 10px 80px;
-	background-color: #7D7878;
+	height: 120px;
+	padding: 8px 80px;
+	background-color: #95A2A9;
 	text-align: center;
+
+	.logo-small {
+		width: 100px;
+    	display: block;
+    	margin: 0 auto;
+    	padding: 10px;
+	}
 }
 
 
