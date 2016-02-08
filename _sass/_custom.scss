@@ -240,3 +240,19 @@
     margin-left: -512px;   /* 50% */
   }
 }
+
+.language {
+    z-index:200;
+    margin: 1em;
+    background-color: #BDCCD4;
+    width: 100px;
+
+    a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight:300;
+    }
+}
+
+.language:hover {
+    background-color: #E9455E;
+}
