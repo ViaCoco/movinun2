@@ -61,9 +61,13 @@
 	}
 }
 
+.date {
+	font-weight: 300;
+}
+
 .colour {
 	margin: 20px 0;
-	border-color: #E9455E;
+	border-color: rgb(70, 161, 255);
 }
 
 .colour-2 {
@@ -90,7 +94,7 @@
 }
 
 .btn-color {
-    background-color: #E9455E;
+    background-color: rgb(70, 161, 255);
     color: white;
     font-weight: 400;
     font-size: 14px;
@@ -105,7 +109,7 @@
 }
 
 .second-form {
-	background-color: #BDCCD4;
+	background-color: #d3dde9;
 	padding: 30px;
 	width: 100%;
 	text-align: center;
@@ -208,7 +212,7 @@
 .footer {
 	height: 120px;
 	padding: 8px 80px;
-	background-color: #95A2A9;
+	background-color: #d3dde9;
 	text-align: center;
 
 	.logo-small {
@@ -254,5 +258,22 @@
 }
 
 .language:hover {
+    background-color: #E9455E;
+}
+
+.blog {
+    z-index:200;
+    margin: 1em;
+    background-color: white;
+    width: 100px;
+    color: #BDCCD4;
+
+    a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight:300;
+    }
+}
+
+.blog:hover {
     background-color: #E9455E;
 }
