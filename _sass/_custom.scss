@@ -265,8 +265,8 @@
     z-index:200;
     margin: 1em;
     background-color: white;
+    color:#BDCCD4;
     width: 100px;
-    color: #BDCCD4;
 
     a{
         font-family: 'Open Sans', sans-serif;
@@ -276,4 +276,71 @@
 
 .blog:hover {
     background-color: #E9455E;
+    color: white;
+}
+
+.blog-title {
+    text-align: center;
+    color: #b3cce5;
+    font-size: 16px;
+}
+
+.posts {
+	display: inline-block;
+	margin: 50px 0;
+
+	img {
+		height: 200px;
+		width: 200px;
+		margin-top: 20px;
+	}
+
+	@media screen and (max-width: 768px) { /* Specific to this particular image */
+	  	img {
+		    height: 100%;
+			width: 100%;
+	  	}
+	}
+
+	a {
+		color: #46a1ff;	
+	}
+}
+
+.post-title {
+	text-align: left;
+	color: $theme-dark;
+	ont-size: 24px;
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	.post-title {
+		font-size: 20px;
+		}
+	}
+
+.date {
+	text-align: left;
+	color: #222;
+
+	p {
+		font-weight: 300;
+		font-size: 12px;	
+	}
+}
+
+.post {
+
+	img {
+		width: 300px;
+		height: 300px;
+		text-align: left;
+	}
+
+	a {
+			color: #46a1ff;
+			font-weight: 300;
+			text-align: left;
+		}
 }
